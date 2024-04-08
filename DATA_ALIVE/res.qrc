@@ -1,0 +1,75 @@
+<RCC>
+    <qresource prefix="/zs">
+        <file>stack/arfa.png</file>
+        <file>stack/bianka.png</file>
+        <file>stack/lif.png</file>
+        <file>stack/luosaita.png</file>
+        <file>stack/lusiya.png</file>
+        <file>stack/mainscene.jpg</file>
+        <file>stack/nanami.png</file>
+        <file>stack/salina.png</file>
+        <file>stack/weila.png</file>
+        <file>stack/craybird.jpg</file>
+        <file>stack/qu.png</file>
+        <file>stack/luna.png</file>
+        <file>stack/solen.png</file>
+        <file>stack/solon.png</file>
+        <file>stack/RULE.png</file>
+    </qresource>
+    <qresource prefix="/active">
+        <file>stack/arfa_active.png</file>
+        <file>stack/bianka_active.png</file>
+        <file>stack/lif_active.png</file>
+        <file>stack/luna_active.png</file>
+        <file>stack/luosaita_active.png</file>
+        <file>stack/lusiya_active.png</file>
+        <file>stack/nanami_active.png</file>
+        <file>stack/qu_active.png</file>
+        <file>stack/salina_active.png</file>
+        <file>stack/weila_active.png</file>
+        <file>stack/select.jpg</file>
+    </qresource>
+    <qresource prefix="/delete">
+        <file>stack/bomb-1.png</file>
+        <file>stack/bomb-2.png</file>
+        <file>stack/bomb-3.png</file>
+        <file>stack/bomb-4.png</file>
+        <file>stack/bomb-5.png</file>
+        <file>stack/bomb-6.png</file>
+        <file>stack/bomb-7.png</file>
+        <file>stack/disappear.wav</file>
+    </qresource>
+    <qresource prefix="/end">
+        <file>stack/juehaixinghuo.jpg</file>
+        <file>stack/keminluoxuan.jpg</file>
+        <file>stack/mijingkehen.jpg</file>
+    </qresource>
+    <qresource prefix="/mark">
+        <file>stack/timerkeeper.jpg</file>
+    </qresource>
+    <qresource prefix="/props">
+        <file>stack/Hint2.png</file>
+        <file>stack/Hint1.png</file>
+        <file>stack/Plust1.png</file>
+        <file>stack/Plust2.png</file>
+        <file>stack/Shuffle1.png</file>
+        <file>stack/Shuffle2.jpg</file>
+    </qresource>
+    <qresource prefix="/hint">
+        <file>stack/arfa_hint.png</file>
+        <file>stack/bianka_hint.png</file>
+        <file>stack/lif_hint.png</file>
+        <file>stack/luna_hint.png</file>
+        <file>stack/luosaita_hint.png</file>
+        <file>stack/lusiya_hint.png</file>
+        <file>stack/nanami_hint.png</file>
+        <file>stack/qu_hint.png</file>
+        <file>stack/salina_hint.png</file>
+        <file>stack/weila_hint.png</file>
+    </qresource>
+    <qresource prefix="/btn">
+        <file>stack/double.jpg</file>
+        <file>stack/shezhi.jpg</file>
+        <file>stack/single.jpg</file>
+    </qresource>
+</RCC>

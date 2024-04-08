@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Doubleplayer</class>
+ <widget class="QMainWindow" name="Doubleplayer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="timeBox">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>300</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="text">
+     <string>猩红的数字正在跳动</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timeLab">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>420</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PlayerOneBox">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>200</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="text">
+     <string>玩家一消球个数</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="playerOneNum">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>460</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="playerTwoBox">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>310</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="text">
+     <string>玩家二消球个数</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="playerTwoNum">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>370</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>开始</string>
+    </property>
+    <addaction name="quit"/>
+    <addaction name="return_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionstoponce"/>
+    <addaction name="actionaccontinue"/>
+    <addaction name="actionwrite"/>
+    <addaction name="actionread"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="quit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="return_2">
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </action>
+  <action name="actionstoponce">
+   <property name="text">
+    <string>暂停</string>
+   </property>
+  </action>
+  <action name="actionaccontinue">
+   <property name="text">
+    <string>继续</string>
+   </property>
+  </action>
+  <action name="actionwrite">
+   <property name="text">
+    <string>存档</string>
+   </property>
+  </action>
+  <action name="actionread">
+   <property name="text">
+    <string>读档</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
